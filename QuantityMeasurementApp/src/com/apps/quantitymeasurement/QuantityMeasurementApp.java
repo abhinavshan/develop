@@ -7,9 +7,10 @@ package com.apps.quantitymeasurement;
 public class QuantityMeasurementApp {
 
     public static class Feet {
+        private final double value;
 
-        public Feet(Double value){
-
+        public Feet(Double value) {
+            this.value = value;
         }
 
         @Override
@@ -26,7 +27,6 @@ public class QuantityMeasurementApp {
         }
         else {
             System.out.println("printing value for Feet Obj ---> " + Boolean.FALSE);
-
         }
     }
 }

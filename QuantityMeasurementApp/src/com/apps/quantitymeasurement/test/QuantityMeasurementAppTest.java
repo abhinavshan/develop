@@ -11,8 +11,8 @@ public class QuantityMeasurementAppTest {
     public void FailTest(){
         QuantityMeasurementApp ob = new QuantityMeasurementApp();
 
-        QuantityMeasurementApp.Feet feet1 = new QuantityMeasurementApp.Feet(7.99);
-        QuantityMeasurementApp.Feet feet2 = new QuantityMeasurementApp.Feet(7.99);
+        QuantityMeasurementApp.Feet feet1 = new QuantityMeasurementApp.Feet(7.99 );
+        QuantityMeasurementApp.Feet feet2 = new QuantityMeasurementApp.Feet(7.99 );
 
         boolean actual = feet1.equals(feet2);
 
@@ -25,8 +25,8 @@ public class QuantityMeasurementAppTest {
     public void PassTest(){
         QuantityMeasurementApp ob = new QuantityMeasurementApp();
 
-        QuantityMeasurementApp.Feet feet1 = new QuantityMeasurementApp.Feet(7.99);
-        QuantityMeasurementApp.Feet feet2 = new QuantityMeasurementApp.Feet(7.99);
+        QuantityMeasurementApp.Feet feet1 = new QuantityMeasurementApp.Feet(7.99 );
+        QuantityMeasurementApp.Feet feet2 = new QuantityMeasurementApp.Feet(7.99 );
 
         boolean actual = feet1.equals(feet2);
 
