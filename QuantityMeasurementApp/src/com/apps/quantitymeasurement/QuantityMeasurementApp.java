@@ -6,7 +6,7 @@ package com.apps.quantitymeasurement;
  */
 public class QuantityMeasurementApp {
 
-    private static class Feet {
+    public static class Feet {
 
         public Feet(Double value){
 
